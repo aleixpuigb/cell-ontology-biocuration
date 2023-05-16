@@ -4132,7 +4132,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://orcid.org/0000-0001-5
 AnnotationAssertion(oboInOwl:hasDbXref obo:CL_0000082 "BTO:0004299")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:CL_0000082 "lung epithelial cell")
 AnnotationAssertion(rdfs:label obo:CL_0000082 "epithelial cell of lung")
-EquivalentClasses(obo:CL_0000082 ObjectIntersectionOf(obo:CL_0000066 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0002048)))
 SubClassOf(obo:CL_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0000115))
 
 # Class: obo:CL_0000083 (epithelial cell of pancreas)
@@ -5113,7 +5112,7 @@ AnnotationAssertion(owl:deprecated obo:CL_0000181 "true"^^xsd:boolean)
 
 # Class: obo:CL_0000182 (hepatocyte)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:tfm") Annotation(oboInOwl:hasDbXref "ISBN:0412046911") Annotation(oboInOwl:hasDbXref "MESH:D022781") Annotation(oboInOwl:hasDbXref "PMID:19717280") Annotation(oboInOwl:hasDbXref "http://en.wikipedia.org/wiki/Hepatocyte") obo:IAO_0000115 obo:CL_0000182 "The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:tfm") Annotation(oboInOwl:hasDbXref "ISBN:0412046911") Annotation(oboInOwl:hasDbXref "MESH:D022781") Annotation(oboInOwl:hasDbXref "PMID:19717280") Annotation(oboInOwl:hasDbXref "http://en.wikipedia.org/wiki/Hepatocyte") obo:IAO_0000115 obo:CL_0000182 "The main structural component of the lung. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of lungs, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated.")
 AnnotationAssertion(oboInOwl:hasDbXref obo:CL_0000182 "BTO:0000575")
 AnnotationAssertion(oboInOwl:hasDbXref obo:CL_0000182 "CALOHA:TS-0454")
 AnnotationAssertion(oboInOwl:hasDbXref obo:CL_0000182 "FMA:14515")
@@ -7411,7 +7410,7 @@ SubClassOf(obo:CL_0000486 obo:CL_0002520)
 
 # Class: obo:CL_0000487 (oenocyte)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:bf") Annotation(oboInOwl:hasDbXref "PMID:11171397") obo:IAO_0000115 obo:CL_0000487 "A large secretory cell found in clusters underlying the epidermis of the abdominal segments of larval abdominal segments.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:bf") obo:IAO_0000115 obo:CL_0000487 "A large secretory cell found in clusters underlying the epidermis of the abdominal segments of larval abdominal segments.")
 AnnotationAssertion(rdfs:label obo:CL_0000487 "oenocyte")
 SubClassOf(obo:CL_0000487 obo:CL_0000151)
 SubClassOf(obo:CL_0000487 obo:CL_0000548)
@@ -15619,7 +15618,7 @@ SubClassOf(obo:CL_0002203 obo:CL_0002253)
 
 # Class: obo:CL_0002204 (brush cell)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:tfm") Annotation(oboInOwl:hasDbXref "ISBN:0517223651") Annotation(oboInOwl:hasDbXref "PMID:15817800") obo:IAO_0000115 obo:CL_0002204 "A cell type found in the gastrointestinal and respiratory tracts that is characterized by the presence of a tuft of blunt, squat microvilli (120-140 per cell). Function of this cell type is not known.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "GOC:tfm") Annotation(oboInOwl:hasDbXref "ISBN:0517223651") Annotation(oboInOwl:hasDbXref "PMID:15817800") obo:IAO_0000115 obo:CL_0002204 "A cel type found in the gastrontestinal and respiratory tracts that is caracterized by the presence of a tuft of blunt, squat microvilli (120-140 per cell). Function of this cel type is not nown.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> obo:CL_0002204 <https://orcid.org/0000-0003-1980-3228>)
 AnnotationAssertion(oboInOwl:creation_date obo:CL_0002204 "2010-09-02T02:28:53Z")
 AnnotationAssertion(oboInOwl:hasDbXref obo:CL_0002204 "FMA:67978")
