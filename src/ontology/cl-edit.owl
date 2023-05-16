@@ -31371,6 +31371,10 @@ AnnotationAssertion(rdfs:comment obo:D96882F1-8709-49AB-BCA9-772A67EA6C33 "ID wa
 AnnotationAssertion(rdfs:label obo:D96882F1-8709-49AB-BCA9-772A67EA6C33 "obsolete D96882F1-8709-49AB-BCA9-772A67EA6C33")
 AnnotationAssertion(owl:deprecated obo:D96882F1-8709-49AB-BCA9-772A67EA6C33 "true"^^xsd:boolean)
 
+# Class: obo:UBERON_0001976 (epithelium of esophagus)
+
+EquivalentClasses(obo:UBERON_0001976 ObjectIntersectionOf(obo:CL_0000066 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0001043)))
+
 
 SubClassOf(ObjectIntersectionOf(obo:CL_0000163 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0000160)) obo:CL_0000164)
 SubClassOf(ObjectIntersectionOf(obo:CL_0000163 ObjectSomeValuesFrom(obo:BFO_0000050 obo:UBERON_0000945)) obo:CL_0000164)
